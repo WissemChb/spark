@@ -1,0 +1,4 @@
+- name: Install Spark
+  pip:
+    name: pyspark
+    state: latest
